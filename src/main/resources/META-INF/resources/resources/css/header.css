@@ -1,0 +1,92 @@
+.header {
+	
+	position: fixed;
+	z-index: 1000;	
+	height: 5%;
+	width: 100%;
+	top: 0;
+	border-bottom: 1px solid black;
+	background: #000033;
+	display: flex;
+	align-items: center;
+	
+}
+
+.header .logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	
+}
+
+.header .logo h1 {
+	
+	color: white;
+	margin: 0;
+	
+}
+
+.header .menuToggle {
+	
+	width: 2%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    
+}
+
+.btnShowMenu {
+	
+	height: 25px;
+	width: 25px;
+	color: black;
+    border-radius: 50px;
+    border: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menuToggle .btnShowMenu {
+	background: #FFD700;
+	color: #000033;
+}
+
+.menuToggle .btnShowMenu:hover {
+	background: #FFA500;
+}
+
+.rotate {
+	transition: transform 0.3s;
+}
+
+.rotate-right {
+	transform: rotate(180deg);
+}
+
+.header .menuSearch {
+	
+	background: #000033;
+	flex: 1;
+	height: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+/*
+.header .pnlButtons {
+	
+	width: 2%;
+	border-left: 1px solid white;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-left: auto;
+	
+}
+*/
